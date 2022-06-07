@@ -15,7 +15,7 @@ public class PuzzleJava {
 
     public String getRandomLetter(){
         Random randMachine = new Random();
-        String alphabetSorted[]={"a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z"};
+        String alphabetSorted[]={"a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"};
         String[] randomLetter=new String[alphabetSorted.length];
         for(int i=0; i < randomLetter.length; i++){
             randomLetter[i]=alphabetSorted[i];
